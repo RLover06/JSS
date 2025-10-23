@@ -10,9 +10,9 @@ export default function Resultados() {
 
   return (
     <main className="p-6 text-center">
-      <h1 className="text-3xl font-semibold mb-4 text-blue-600">Resultados Raman</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-blue-600">Raman results</h1>
       <p className="text-gray-600 mb-6">
-        Este gráfico muestra un espectro Raman de ejemplo del ZnO dopado con cerio.
+      This graph shows an example Raman spectrum of cerium-doped ZnO.
       </p>
 
       <div className="flex justify-center">
@@ -29,9 +29,9 @@ export default function Resultados() {
           layout={{
             width: 700,
             height: 400,
-            title: "Espectro Raman (Ejemplo)",
-            xaxis: { title: "Número de onda (cm⁻¹)" },
-            yaxis: { title: "Intensidad (u.a.)" },
+            title: "Raman Spectrum (Example)",
+            xaxis: { title: "Wavenumber (cm⁻¹)" },
+            yaxis: { title: "Intensity (u.a.)" },
           }}
         />
       </div>
