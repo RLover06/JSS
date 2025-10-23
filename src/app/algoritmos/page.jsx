@@ -1,7 +1,7 @@
 "use client";
 import Plot from "react-plotly.js";
 
-export default function Resultados() {
+export default function Results() {
   const data = {
     wavenumber: [200, 300, 400, 500, 600, 700],
     intensity: [10, 25, 60, 40, 20, 15],

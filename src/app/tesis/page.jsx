@@ -2,7 +2,7 @@
 import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
-export default function Tesis() {
+export default function Thesis() {
   return (
     <main className="p-6">
       <h1 className="text-3xl font-semibold mb-4 text-blue-600"> MATLAB Thesis </h1>
