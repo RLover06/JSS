@@ -9,18 +9,18 @@ export default function Resultados() {
 
   return (
     <main className="p-6">
-      <h1 className="text-3xl font-semibold mb-4 text-blue-600">Resultados Raman</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-blue-600">Raman results</h1>
       <p className="mb-4 text-gray-600">
-        Ejemplo de espectro Raman generado a partir de datos experimentales.
+      Example of Raman spectrum generated from experimental data.
       </p>
       <Plot
         data={[
           { x: data.wavenumber, y: data.intensity, type: "scatter", mode: "lines+markers" },
         ]}
         layout={{
-          title: "Espectro Raman (Ejemplo)",
-          xaxis: { title: "Frecuencia Raman (cm⁻¹)" },
-          yaxis: { title: "Intensidad (u.a.)" },
+          title: "Raman Spectrum (Example)",
+          xaxis: { title: "Raman frequency (cm⁻¹)" },
+          yaxis: { title: "Intensity (u.a.)" },
         }}
       />
     </main>
