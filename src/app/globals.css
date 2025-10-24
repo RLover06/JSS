@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f20808; /* Fondo claro */
+  --background: #3330d7; /* Fondo claro */
   --foreground: #171717; /* Texto oscuro */
   --font-sans: Arial, Helvetica, sans-serif;
   --font-mono: 'Courier New', monospace;
@@ -19,7 +19,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #2010d2;
   }
 }
 
