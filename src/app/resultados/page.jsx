@@ -1,7 +1,7 @@
 "use client";
 import Plot from "react-plotly.js";
 
-export default function Resultados() {
+export default function Results() {
   // 🔹 Datos de ejemplo — aquí luego puedes cargar tus datos reales desde un CSV o JSON
   const data = {
     wavenumber: [200, 300, 400, 500, 600, 700],

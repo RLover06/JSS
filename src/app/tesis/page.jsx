@@ -1,16 +1,22 @@
 "use client";
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
 
-export default function Thesis() {
+export default function ThesisPage() {
   return (
-    <main className="p-6">
-      <h1 className="text-3xl font-semibold mb-4 text-blue-600"> MATLAB Thesis </h1>
-      <div className="h-[85vh] border rounded-lg shadow">
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.3.122/build/pdf.worker.min.js">
-          <Viewer fileUrl="/OverRegino.pdf" />
-        </Worker>
-      </div>
-    </main>
+    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-6">
+      <h1 className="text-3xl font-bold text-blue-500 mb-6">
+        Full Thesis Document
+      </h1>
+
+      <iframe
+        src="/OverRegino.pdf"
+        width="80%"
+        height="700px"
+        className="rounded-lg shadow-lg border border-gray-700"
+      ></iframe>
+
+      <p className="text-gray-400 mt-4 text-sm">
+        You can read the complete PDF document of the research directly above.
+      </p>
+    </div>
   );
 }
